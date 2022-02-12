@@ -4,7 +4,7 @@ infoOnClickedItem {}
 fetch function that takes as inputs:
 
 - Genre (of clicked item)
-- Caterogry (of clicked item)
+- Category (of clicked item)
 
 create an object that has all generes as string.
 

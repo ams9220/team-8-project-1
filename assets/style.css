@@ -1,12 +1,41 @@
-.blue-grey.darken-3 {opacity: .5 }
-.blue-grey.darken-3:hover{opacity: 1 }
+
+body {
+	background-color: #FFFAFA;
+}
+
+.pics {
+	height: 25%;
+	width: 32%;
+	padding: 5%;
+	float: left;
+}
+
+.card-panel {
+	background-image: linear-gradient(45deg, #4b4fb6 0%, #488ea2 52%, #737a86 90%);
+	opacity: 0.75;
+}
+
+.card-panel:hover {
+	opacity: 1.0;
+}
+
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+	font-weight: bolder;
+	background-color: #B0C4DE;
+	background-size: 35% auto;
+	padding: 25px;
+}
 
 .selectgenre {
     height: 500px;
 }
+
 .selectgenre h2 {
     text-align: center;
 }
+
 .wrapper {
     margin: auto;
 	width: 290px;
@@ -14,6 +43,7 @@
 	position: relative;
 	padding-top: 80px;
 }
+
 .carrouselwrapper {
     width: 100%;
     animation: rotar 30s infinite linear;
