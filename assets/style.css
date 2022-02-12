@@ -8,6 +8,7 @@ body {
 	width: 32%;
 	padding: 1%;
 	float: left;
+	align-items: center;
 }
 
 .card-panel {
@@ -34,6 +35,10 @@ h2 {
 
 .selectgenre h2 {
     text-align: center;
+}
+
+.genrecontainer {
+	background-color: #B0C4DE;	
 }
 
 .wrapper {
